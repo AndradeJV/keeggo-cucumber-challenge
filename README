@@ -1,0 +1,54 @@
+# Desafio técnico - Keeggo🚀
+
+## Informações do candidato
+- Nome: João Vitor Andrade de Araujo
+- Cidade: Suzano, SP
+- Idade: 22
+- Linguagens de programação: Java, Ruby, Python, javascript e typescript
+- Frameworks de automação e testes de performance: selenium, cypress, playwright, robot framework, maestro, appium, jMeter e K6
+- Ferramentas: Jira, Azure DevOps, PowerBI, Google Looker Studio e excel/sheets
+
+## Informações gerais:
+[aqui]() você encontrará o outro repositório com os mesmos testes mas com abordagem diferente do cucumber e com os testes de api automatizados
+
+## Tecnologias usadas🌐
+- Cypress
+- Cucumber
+
+## Como instalar, pré requisitos, execução de testes📦
+### Pré requisitos📋
+- Ter Node e NPM instalado na máquina (foi usado a versão 20 LTS do node)
+
+### Instalação e execução dos testes🔧
+1. Clonar repositório
+2. Executar `npm i` para instalar as dependências
+3. Executar `npx cypress open` para abrir o menu do cypress ou `npx cypress run` para executar todos os testes disponíveis
+
+
+[Aqui](https://docs.google.com/document/d/1IGSG2VykBUtijQdLEmM3NnIvAIoMHSAnQYTrD5R5g0Q/edit?usp=sharing) 📁 você pode encontrar os casos de testes descritos!
+
+
+### Descrição de pastas e arquivos📄
+- cypress: toda organização dos arquivos cypress
+- fixtures: massa de dados dos testes organizando por cenário.
+  A criação do nome DEVE seguir o mesmo nome do cenário
+- support: configurações de plugins, scripts e requisições para evitar repetições de código
+  pages: organização dos métodos de cada página
+  scripts: arquivos globais de manipulação
+  commands.js: scripts para executar de forma "padrão" o cypress
+  e2e.js: execuções ou criação de scripts para execução de forma "padrão" do cypress
+- tests: scripts de testes em execução
+- node_modules: arquivos do node e dependências
+- .gitignore: arquivos que não serão gerenciados pelo git
+- cypress.config.js: arquivo de configurações do cypress
+- package.lock.json: arquivo de dependências
+- package.json: arquivo de dependências e configurações do projeto node
+- README.md: documentação do projeto
+
+
+---
+
+### Informações gerais📘
+* Em caso de informações sigilosas poderia haver um arquivo que o cypress recomenda para usar que seria o cypress.env.
+
+* Caso houvesse de usar outra tecnologia para CI/CD, tenho conhecimento em: Gitlab CI, CircleCI e Azure Devops
