@@ -14,6 +14,6 @@ When('I click for search a product and insert the name of product and get an ent
   HomePage.accessProduct()
 })
 
-Then('I should see a modal opening stating that the product has been added to the cart with its respective information', () => {
+Then('I should see the products searched on the screen', () => {
   cy.get('.noPromotedProductDiv >div >div >div:nth-child(2) ul li:nth-child(1)').should('be.visible')
 })
